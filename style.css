@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #ffffff;
+    color: #000000;
+    max-width: 940px;
+    }
+
+/*====HOME====*/
+    
+header {
+    padding: 32px;
+    padding-left: 0;
+    width: 100%;
+
+}
+
+#logo{
+    vertical-align: middle;
+    margin: 0 100px 0 0;
+}
+
+.links a{
+    font-size: 19px;
+    line-height: 26px;
+    text-decoration: none;
+    color: #000000;
+    margin: 0 10px;
+}
+
+.bolder:hover {
+    font-weight: bold;
+}
+
+.banner {
+    width: 940px;
+    height: 366px;
+    background: #FBDFDB;
+    border-radius: 30px;
+    border-radius: 30px; 
+}
+
+.description {
+    height: 366px;
+    width: 376px;
+    float: left;
+}
+
+#best-recipes { 
+    font-weight: bold;
+    padding-top: 117px;
+    padding-left: 60px;
+    font-size: 32px;
+    line-height: 42px;
+}
+#lil-descript {
+    margin-top: 10px ;
+    opacity: 0.7;
+    font-size: 18px;
+    color: #000000;
+    line-height: 28px;
+    padding-left: 60px;
+    max-width: 316px;
+    float: left;
+}
+
+#chef {
+    padding-top: 66px;
+    padding-right: 100px;
+    float: right;
+}
+
+.mais_acessadas {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.cards {
+    max-width: 940px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+    cursor: pointer;
+}
+
+.card_img_container img {
+    width: 300px;
+    border-radius: 15px;
+    margin: 20px 0;
+}
+
+.card_name {
+    font-size: 18px;
+    color: #111111;
+}
+
+.made_by {
+    font-size: 14px;
+    line-height: 24px;
+    color: #777777;
+}
+
+footer {
+    text-align: center;
+    max-width: 940px;
+    height: 62px;
+    background-color: #eeeeee;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+footer p {
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
+}
+
+/*====MODAL====*/
+
+.modal_overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.modal {
+    background-color: white;
+    height: 40%;
+    width: 35%;
+    border-radius: 16px;
+    opacity: 1;
+    top: 30%;
+    position: relative; 
+}
+
+.modal img {
+    border-radius: 15px;
+    width: 600px;
+    height: 200px;
+    object-fit: cover;
+    margin: 30px 30px 10px 30px;
+}
+
+#nome_receita {
+    font-size: 24px;;
+    color: #111111;
+    text-align: center;
+}
+
+#chef_receita {
+    font-size: 18px;
+    line-height: 28px;
+    color: #777777;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.close_modal {
+    font-size: 16px;
+    color: #999999;
+    text-align: center;
+    margin-bottom: 30px;
+    width: 100px;
+}
+
+.close_modal p {
+    cursor: pointer;
+}
+
+/*====MODAL.ACTIVE====*/
+
+.modal_overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+/*====ABOUT====*/
+
+.about {
+    margin-top: 18px;
+}
+
+
+.about h1 {
+    font-size: 20px;
+    color: #111111;
+}
+
+#sobre_foodfy {
+    font-size: 24px;
+    color: #111111;
+}
+
+.about p {
+    font-size: 18px;
+    color: #444444;
+    line-height: 28px;
+    margin: 20px auto;
+}
